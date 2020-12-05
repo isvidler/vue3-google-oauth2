@@ -125,7 +125,7 @@ var googleAuth = (function () {
 
 
 
-function installGoogleAuthPlugin(Vue, options) {
+function installGoogleAuthPlugin(app, options) {
   /* eslint-disable */
   //set config
   let GoogleAuthConfig = null
@@ -143,15 +143,10 @@ function installGoogleAuthPlugin(Vue, options) {
   }
 
   //Install Vue plugin
-  Vue.gAuth = googleAuth
-  Object.defineProperties(Vue.prototype, {
-    $gAuth: {
-      get: function () {
-        return Vue.gAuth
-      }
-    }
-  })
-  Vue.gAuth.load(GoogleAuthConfig, prompt)
+  app.gAuth = googleAuth
+  app.config.globalProperties.$gAuth = app.gAuth
+
+  app.gAuth.load(GoogleAuthConfig, prompt)
 }
 
 export default installGoogleAuthPlugin

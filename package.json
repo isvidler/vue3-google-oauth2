@@ -1,7 +1,7 @@
 {
-  "name": "vue-google-oauth2",
-  "version": "1.5.5",
-  "description": "Handling Google Auth2 sign-in and sign-out",
+  "name": "vue3-google-oauth2",
+  "version": "1.0.0",
+  "description": "Handling Google Auth2 sign-in and sign-out for Vue 3",
   "main": "index.js",
   "types": "index.ts",
   "scripts": {
@@ -9,10 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guruahn/vue-google-oauth2.git"
+    "url": "git+https://github.com/isvidler/vue3-google-oauth2.git"
   },
   "keywords": [
     "vue",
+    "vue3",
     "google",
     "authentication",
     "gapi",
@@ -22,10 +23,10 @@
     "logout",
     "oauth2"
   ],
-  "author": "Jeongwoo Ahn <guruahn@gmail.com>",
+  "author": "Ittai Svidler <isvidler@umich.edu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guruahn/vue-google-oauth2/issues"
+    "url": "https://github.com/isvidler/vue3-google-oauth2/issues"
   },
-  "homepage": "https://github.com/guruahn/vue-google-oauth2#readme"
+  "homepage": "https://github.com/isvidler/vue3-google-oauth2#readme"
 }

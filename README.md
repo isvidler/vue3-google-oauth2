@@ -1,5 +1,12 @@
-# vue-google-oauth2
-Handling Google sign-in and sign-out for Vue.js applications.
+# vue3-google-oauth2
+Handling Google sign-in and sign-out for Vue 3 applications.
+
+**Note I:** This repository is a fork of the original [vue-google-oauth2](https://github.com/guruahn/vue-google-oauth2) 
+and has been updated for Vue 3.
+
+**Note II:** This repository is not yet backwards compatible with Vue 2 and does not yet support TypeScript.
+
+**Note III:** The documentation below has not been updated from the original repository.
 
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/vue-google-oauth2.svg)
 ![GitHub](https://img.shields.io/github/license/guruahn/vue-google-oauth2.svg)
